@@ -60,7 +60,7 @@ const CurrencyConvert = () => {
   return (
     <>
       {errorMsg ? (
-        <ErrorMsg />
+        <ErrorMsg errorMsg={errorMsg} />
       ) : location ? (
         <View style={style.currencyConvertViewContainer}>
           <View style={style.dropDownsTextInputViewContainer}>

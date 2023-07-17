@@ -43,7 +43,7 @@ const Charts = () => {
   return (
     <>
       {errorMsg ? (
-        <ErrorMsg />
+        <ErrorMsg errorMsg={errorMsg} />
       ) : location ? (
         <View>
           <View style={style.chartsFormViewContiner}>
